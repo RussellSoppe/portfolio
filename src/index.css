@@ -13,7 +13,93 @@ code {
     monospace;
 }
 
+/*App*/
+.App {
+  text-align: center;
+}
+
+/*AboutBanner*/
+h1{
+color:#1AAB8A;
+}
+
+/*Websites*/
 iframe {
-	height: 400px;
-	width: 500px;
+	height: 90%;
+	width: 90%;
+}
+
+.websites{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.outercard{
+	/*background-color: blue;*/
+	height: 800px;
+	width: 80%;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.innercard {
+	/*background-color: pink;*/
+	height: 700px;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*WebsiteMenu*/
+
+.websitebuttonbanner {
+	width: 100%;
+	height: 50px;
+	/*background-color: yellow;*/
+}
+
+.websitebuttongroup {
+	display: flex;
+	justify-content: space-around;
+}
+
+.websitebutton {
+	width: 100%;
+	height: 50px;
+	background:#1AAB8A;
+	color:#fff;
+	border:none;
+	position:relative;
+	font-size:1.4em;
+	padding:0 2em;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
+}
+.websitebutton:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.websitebutton:before,.websitebutton:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.websitebutton:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.websitebutton:hover:before,.websitebutton:hover:after{
+  width:100%;
+  transition:800ms ease all;
 }
