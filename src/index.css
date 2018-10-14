@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+/*  margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -7,123 +7,29 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to right, rgb(211, 231, 230), rgb(248, 224, 171));
+  background-repeat: none;*/
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/*  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;*/
 }
 
-/*App*/
-.App {
-  text-align: center;
-}
 
 /*AboutBanner*/
 h1{
-color:#1AAB8A;
+	color:#1AAB8A;
 }
 
-/*Websites*/
-iframe {
-	height: 300px;
-	width: 500px;
-	border: none;
+.aboutbanner{
+	/*background: linear-gradient(to right, #1AAB8A, white, #1AAB8A);*/
+	background-color: purple;
 }
 
-.websites{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
 
-.outercard{
-	/*background-color: blue;*/
-	height: 800px;
-	width: 80%;
-	padding-bottom: 20px;
-	display: flex;
-	justify-content: center;
-}
 
-.innercard {
-	/*background-color: pink;*/
-	height: 700px;
-	width: 90%;
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: center;
-}
 
-.cardtext{
-	padding-right: 10px;
-}
 
-.btn {
-  background: #1AAB8A;
-  border: 4px solid #1AAB8A;
-  text-decoration:none;
-  color: white;
-}
 
-.btn:hover {
-  background: #1AAB8A;
-  border: 4px solid white;
-  color: #fff
-}
-
-/*WebsiteMenu*/
-
-.websitebuttonbanner {
-	width: 100%;
-	height: 50px;
-	/*background-color: yellow;*/
-}
-
-.websitebuttongroup {
-	display: flex;
-	justify-content: space-around;
-}
-
-.websitebutton {
-	width: 100%;
-	height: 50px;
-	background:#1AAB8A;
-	color:#fff;
-	border:none;
-	position:relative;
-	font-size:1.4em;
-	padding:0 2em;
-	cursor:pointer;
-	transition:800ms ease all;
-	outline:none;
-}
-.websitebutton:hover{
-  background:#fff;
-  color:#1AAB8A;
-}
-.websitebutton:before,.websitebutton:after{
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  height:2px;
-  width:0;
-  background: #1AAB8A;
-  transition:400ms ease all;
-}
-.websitebutton:after{
-  right:inherit;
-  top:inherit;
-  left:0;
-  bottom:0;
-}
-.websitebutton:hover:before,.websitebutton:hover:after{
-  width:100%;
-  transition:800ms ease all;
-}
-
-/*FEATURE*/
 
 

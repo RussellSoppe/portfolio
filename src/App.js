@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import Websites from './components/Websites';
+// import Websites from './components/Websites';
+import WebsitesMF from './components/WebsitesMF';
 import Footer from './components/Footer';
 import AboutBanner from './components/AboutBanner';
-import WebsiteMenu from './components/WebsiteMenu';
+// import WebsiteMenu from './components/WebsiteMenu';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -14,7 +15,6 @@ class App extends Component {
     super();
     this.state={
       website: 'facebrain',
-
     }
   }
 
@@ -31,11 +31,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <AboutBanner />
-        <WebsiteMenu onPageChange={this.onPageChange}/>
-        <Websites currentsite={this.state.website}/>
+       <AboutBanner />
+        {/*<WebsiteMenu onPageChange={this.onPageChange}/>*/}
+       {/*<Websites currentsite={this.state.website}/>*/}
+        <WebsitesMF/>
         
-        <Footer />
+       <Footer />
       </div>
     );
   }
