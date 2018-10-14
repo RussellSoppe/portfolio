@@ -26,8 +26,9 @@ color:#1AAB8A;
 
 /*Websites*/
 iframe {
-	height: 90%;
-	width: 90%;
+	height: 300px;
+	width: 500px;
+	border: none;
 }
 
 .websites{
@@ -51,7 +52,25 @@ iframe {
 	width: 90%;
 	display: flex;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.cardtext{
+	padding-right: 10px;
+}
+
+.btn {
+  background: #1AAB8A;
+  border: 4px solid #1AAB8A;
+  text-decoration:none;
+  color: white;
+}
+
+.btn:hover {
+  background: #1AAB8A;
+  border: 4px solid white;
+  color: #fff
 }
 
 /*WebsiteMenu*/
@@ -104,3 +123,7 @@ iframe {
   width:100%;
   transition:800ms ease all;
 }
+
+/*FEATURE*/
+
+
