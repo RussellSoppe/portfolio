@@ -64,7 +64,7 @@ const WebsitesMF = (props) => {
 	    			<div className="outercard">
 	            <div className="innercard">
 	            	<div data-aos="fade-up">
-            		 	<img alt="Moble First Start Up" href=""></img>
+            		 	<img alt="Mobile First Start Up" href=""></img>
                 </div>
                 <div className="cardtext" data-aos="fade-down">
 	            		<h1>Mobile First Start Up</h1>
