@@ -6,27 +6,26 @@
 }*/
 
 .websites{
-	background-color: yellow;
+	/*background-color: yellow;*/
 	/*display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;*/
 }
 
 .outercard{
-	background-color: blue;
+	/*background-color: blue;*/
 	height: 320px;
-	width: 375px;
-	/*width: 375px;
+	width: auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	display: flex;
-	justify-content: center;*/
+	justify-content: center;
 }
 
 .innercard {
-	background-color: pink;
+	/*background-color: pink;*/
 	height: 300px;
-	width: 375px;
+	width: auto;
 	/*width: auto;
 	display: flex;
 	align-items: center;
