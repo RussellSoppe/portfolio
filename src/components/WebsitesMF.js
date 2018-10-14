@@ -64,9 +64,9 @@ const WebsitesMF = (props) => {
 	    			<div className="outercard">
 	            <div className="innercard">
 	            	<div data-aos="fade-up">
-            		 	<img alt="StarWars" href=""></img>
+            		 	<img alt="Moble First Start Up" href=""></img>
                 </div>
-                <div className="Mobile First StartUp" data-aos="fade-down">
+                <div className="cardtext" data-aos="fade-down">
 	            		<h1>Mobile First Start Up</h1>
 		              <p>This website was created with HTML, CSS, and JavaScript.</p>
 		              <a className="btn" href="https://russellsoppe.github.io/startupmf/" role="button">Go to Website</a>
