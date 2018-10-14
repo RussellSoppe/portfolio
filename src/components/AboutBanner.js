@@ -1,9 +1,10 @@
 import React from 'react';
+import './AboutBanner.css';
 
 const AboutBanner = ()=>{
 	return(
 
-		<div>
+		<div className="aboutbanner">
                <h1>Russell Soppe Web Developer Portfolio</h1>
                <p>Hello, I am not sure how you found this site but I am glad you have.<br/> 
                This site is a work in progress, both as a portfolio site and some of the sites within.<br/> 
