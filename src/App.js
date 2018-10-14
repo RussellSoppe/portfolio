@@ -4,7 +4,9 @@ import Websites from './components/Websites';
 import Footer from './components/Footer';
 import AboutBanner from './components/AboutBanner';
 import WebsiteMenu from './components/WebsiteMenu';
-import StarWars from './components/StarWars';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 class App extends Component {
 
@@ -14,6 +16,12 @@ class App extends Component {
       website: 'facebrain',
 
     }
+  }
+
+  componentDidMount(){
+    AOS.init({
+      duration : 2000
+    })
   }
 
   onPageChange = (page)=>{
@@ -26,6 +34,7 @@ class App extends Component {
         <AboutBanner />
         <WebsiteMenu onPageChange={this.onPageChange}/>
         <Websites currentsite={this.state.website}/>
+        
         <Footer />
       </div>
     );
