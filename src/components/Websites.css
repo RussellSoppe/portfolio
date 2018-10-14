@@ -14,7 +14,7 @@
 
 .outercard{
 	/*background-color: blue;*/
-	height: 320px;
+	height: 520px;
 	width: auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -24,13 +24,22 @@
 
 .innercard {
 	/*background-color: pink;*/
-	height: 300px;
+	height: 500px;
 	width: auto;
 	/*width: auto;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;*/
+}
+
+.webimg{
+	height: 300px;
+	width: auto;
+}
+
+.cardtexttitle{
+	
 }
 
 .cardtext{
