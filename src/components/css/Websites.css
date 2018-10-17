@@ -1,0 +1,86 @@
+/*Websites Global*/
+iframe {
+	height:400px;
+	width: 600px;
+	border: none;
+}
+
+/*Websites*/
+
+.websites{
+	/*background-color: yellow;*/
+	/*display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;*/
+}
+
+.outercard{
+	/*background-color: blue;*/
+	height: 420px;
+	width: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.innercard {
+	/*background-color: pink;*/
+	height: 400px;
+	width: auto;
+	/*width: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;*/
+}
+
+.webimg{
+	height: auto;
+	width: 300px;
+}
+
+.cardtext{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.btn {
+  background: #1AAB8A;
+  border: 4px solid #1AAB8A;
+  text-decoration:none;
+  color: white;
+}
+
+.btn:hover {
+  background: #1AAB8A;
+  border: 4px solid white;
+  color: #fff
+}
+
+/*WebsitesAlt*/
+.btnpad{
+	padding-top: 20px;
+}
+
+.webimgalt{
+	position: static;
+	height: auto;
+	width: 600px;
+}
+
+.innercardalt{
+	/*background-color: pink;*/
+	height: 400px;
+	width: auto;
+	width: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+/*WebsitesMF*/

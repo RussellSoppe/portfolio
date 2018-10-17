@@ -1,0 +1,65 @@
+/*WebsiteOptionMenu*/
+
+.websitebuttonbannero {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 1;
+	/*background-color: yellow;*/
+}
+
+.websitebuttongroupo {
+	display: flex;
+	flex-direction: row;
+}
+
+.websitebuttono {
+	width: 100%;
+	height: 50px;
+	background:#1AAB8A;
+	color:#fff;
+	border:none;
+	position:relative;
+	cursor:pointer;
+	transition:800ms ease all;
+	outline:none;
+	/*font-size:1.4em;
+	padding:0 2em;*/
+}
+
+.contactmebuttondiv{
+	padding-bottom: 50px;
+}
+.contactmebutton{
+	width: 100%;
+	height: 20px;
+}
+
+.websitebuttono:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+
+.websitebuttono:before,.websitebuttono:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+
+.websitebuttono:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+
+.websitebuttono:hover:before,.websitebuttono:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
