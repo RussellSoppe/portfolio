@@ -1,5 +1,5 @@
 import React from 'react';
-import './Websites.css';
+import './css/Websites.css';
 
 const Websites = (props) => {
 	
@@ -12,12 +12,14 @@ const Websites = (props) => {
 	              <div className="cardtext" data-aos="fade-right">
 		              <p>This website was created with React using the Star Wars API.</p>
 		              <p>Future plans include adding planets and vehicle pages as well as links between within profiles.</p>
-		              <a className="btn" href="https://russellsoppe.github.io/StarWars/" role="button">See Site in New Page</a>
-	              </div>
+		            </div>
 	              <div data-aos="fade-left">
 				          <iframe title="SWAPI Exercise" src="https://russellsoppe.github.io/StarWars/">
 				            <p>Your browser does not support iframes.</p>
 				          </iframe>
+	          		</div>
+	          		<div className="btnpad">
+	          			<a className="btn" href="https://russellsoppe.github.io/StarWars/" role="button">Go to Website</a>
 	          		</div>
 	            </div>
 	          </div>
@@ -30,12 +32,14 @@ const Websites = (props) => {
 	            <div className="innercard">
 	            	<div className="cardtext" data-aos="fade-right">
 		              <p>This website was created with React using the Clarifai API to detect faces in a picture!</p>
-		              <a className="btn" href="https://russellsoppe.github.io/facebrain/" role="button">See Site in New Page</a>
 	            	</div>
 	            	<div data-aos="fade-left">
 	            		<iframe title="Clarifai API Final Exercise" src="https://russellsoppe.github.io/facebrain/">
 	                  <p>Your browser does not support iframes.</p>
 	                </iframe>
+	              </div>
+	              <div className="btnpad">
+	              <a className="btn" href="https://russellsoppe.github.io/facebrain/" role="button">Go to Website</a>
 	              </div>
 	            </div>
 	          </div>
@@ -48,12 +52,14 @@ const Websites = (props) => {
 		            <div className="innercard">
 		            	<div className="cardtext" data-aos="fade-right">
 			              <p>This website was created with HTML, CSS, and JavaScript as an exercise in Zero To Mastery Course.</p>
-			              <a className="btn" href="https://russellsoppe.github.io/Background-Generator" role="button">See Site in New Page</a>
 		            	</div>
 		            	<div data-aos="fade-left">
 	            		 	<iframe title="Background Generator" src="https://russellsoppe.github.io/Background-Generator/">
 	                  	<p>Your browser does not support iframes.</p>
 	                	</iframe>
+	                </div>
+	                <div className="btnpad">
+	                <a className="btn" href="https://russellsoppe.github.io/Background-Generator" role="button">Go to Website</a>
 	                </div>
 	               </div>
         			</div>
@@ -66,12 +72,14 @@ const Websites = (props) => {
 	            <div className="innercard">
 	            	<div className="cardtext" data-aos="fade-right">
 		              <p>This website was created with HTML, CSS, and JavaScript.</p>
-		              <a className="btn" href="https://russellsoppe.github.io/navbar-startup/" role="button">See Site in New Page</a>
 	            	</div>
 	            	<div data-aos="fade-left">
 		            	<iframe title="navbar startup" src="https://russellsoppe.github.io/navbar-startup/">
 		                <p>Your browser does not support iframes.</p>
 		              </iframe>
+	            </div>
+	            <div className="btnpad">
+	            <a className="btn" href="https://russellsoppe.github.io/navbar-startup/" role="button">Go to Website</a>
 	            </div>
 	           </div>
 	          </div>
@@ -84,12 +92,14 @@ const Websites = (props) => {
 		            <div className="innercard">
 		            	<div className="cardtext" data-aos="fade-right">
 		              <p>This website was created with HTML, CSS, and JavaScript.</p>
-		              <a className="btn" href="https://russellsoppe.github.io/startupmf/" role="button">See Site in New Page</a>
 		            </div>
 		            <div ata-aos="fade-left">
 	            		<iframe title="startup mobile first" src="https://russellsoppe.github.io/startupmf/">
 	                  <p>Your browser does not support iframes.</p>
 	                </iframe>
+		            </div>
+		            <div className="btnpad">
+		            <a className="btn" href="https://russellsoppe.github.io/startupmf/" role="button">Go to Website</a>
 		            </div>
 		           </div>
 	          </div>
@@ -103,12 +113,14 @@ const Websites = (props) => {
 	            	<div className="cardtext" data-aos="fade-right">
 		              <p>This website was created with HTML, CSS, and JavaScript. 
 		              The current style choices are from my daughter who loves all things pink and purple.</p>
-		              <a className="btn" href="https://russellsoppe.github.io/calculator/" role="button">See Site in New Page</a>
 	            	</div>
 	            	<div data-aos="fade-left">
 		              <iframe title="calculator" src="https://russellsoppe.github.io/calculator/">
 		                <p>Your browser does not support iframes.</p>
 		              </iframe>
+	              </div>
+	              <div className="btnpad">
+	              <a className="btn" href="https://russellsoppe.github.io/calculator/" role="button">Go to Website</a>
 	              </div>
 		          </div>
 	          </div>

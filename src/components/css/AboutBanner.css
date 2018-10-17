@@ -1,0 +1,14 @@
+/*AboutBanner*/
+
+.aboutbanner{
+	height: auto;
+	width: 100%;
+	background: linear-gradient(to right, #1AAB8A, white, #1AAB8A);
+	/*background-color: purple;*/
+}
+
+/*.topimageab {
+	position: fixed;
+	width: 300px;
+	height: auto;
+}*/

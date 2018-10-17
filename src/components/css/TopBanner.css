@@ -1,0 +1,23 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+	font-weight: bold;
+	color:#1AAB8A;
+}
+
+/*Main image*/
+.keyboardimg{
+	width: 100%;
+    height: auto;
+}
