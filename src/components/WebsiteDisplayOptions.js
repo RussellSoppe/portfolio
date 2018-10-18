@@ -11,9 +11,6 @@ const WebsiteDisplayOptions = (props)=>{
 	      <button onClick={()=> props.onOptionChange('oneatatime')} className="websitebuttono">Single iFrame</button>
 	     </div>
 	    </div>
-    	<div className="contactmebuttondiv">
-    		<button onClick={()=> props.onOptionChange('Contact')} className="websitebuttono contactmebutton">Contact Me</button>
-    	</div>	
     </div>
 	);
 }
