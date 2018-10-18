@@ -6,7 +6,6 @@ import WebsitesAlt from './components/WebsitesAlt';
 import WebsitesMF from './components/WebsitesMF';
 import Footer from './components/Footer';
 import TopBanner from './components/TopBanner';
-import AboutBanner from './components/AboutBanner';
 import BackgroundImg from './components/BackgroundImg';
 import WebsiteDisplayOptions from './components/WebsiteDisplayOptions';
 import AOS from 'aos';
@@ -43,7 +42,6 @@ class App extends Component {
       <div className="App">
         <BackgroundImg/>
         <TopBanner/>
-        <AboutBanner/>
         <WebsiteDisplayOptions onOptionChange={this.onOptionChange}/>
         {this.state.websiteoptions==="oneatatime" 
          ?<div>

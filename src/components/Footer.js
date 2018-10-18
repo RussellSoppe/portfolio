@@ -7,6 +7,7 @@ const Footer = ()=>{
 		<div className="footer">
 		 	<div>This site is being created by Russell Soppe.</div> 
 		 	<div>Contact me by email: dev@russellsoppe.com</div>
+		 	<div className="whitespace"></div>
 		</div>
 
 	);

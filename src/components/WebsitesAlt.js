@@ -17,7 +17,6 @@ const Websites = (props) => {
 	              <div className="cardtext" data-aos="fade-right">
 	              	<h1>Star Wars API</h1>
 		              <p>This website was created with React using the Star Wars API.</p>
-		              <p>Future plans include adding planets and vehicle pages as well as links between within profiles.</p>
 		              <a className="btn" href="https://russellsoppe.github.io/StarWars/" role="button">Go to Website</a>
 	              </div>
 	              <div data-aos="fade-left">

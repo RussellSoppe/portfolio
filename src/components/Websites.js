@@ -11,7 +11,6 @@ const Websites = (props) => {
 	            <div className="innercard">
 	              <div className="cardtext" data-aos="fade-right">
 		              <p>This website was created with React using the Star Wars API.</p>
-		              <p>Future plans include adding planets and vehicle pages as well as links between within profiles.</p>
 		            </div>
 	              <div data-aos="fade-left">
 				          <iframe title="SWAPI Exercise" src="https://russellsoppe.github.io/StarWars/">
@@ -20,6 +19,7 @@ const Websites = (props) => {
 	          		</div>
 	          		<div className="btnpad">
 	          			<a className="btn" href="https://russellsoppe.github.io/StarWars/" role="button">Go to Website</a>
+	          			<div className="whitespace"></div>
 	          		</div>
 	            </div>
 	          </div>
@@ -40,6 +40,7 @@ const Websites = (props) => {
 	              </div>
 	              <div className="btnpad">
 	              <a className="btn" href="https://russellsoppe.github.io/facebrain/" role="button">Go to Website</a>
+	              <div className="whitespace"></div>
 	              </div>
 	            </div>
 	          </div>
@@ -60,6 +61,7 @@ const Websites = (props) => {
 	                </div>
 	                <div className="btnpad">
 	                <a className="btn" href="https://russellsoppe.github.io/Background-Generator" role="button">Go to Website</a>
+	                <div className="whitespace"></div>
 	                </div>
 	               </div>
         			</div>
@@ -80,6 +82,7 @@ const Websites = (props) => {
 	            </div>
 	            <div className="btnpad">
 	            <a className="btn" href="https://russellsoppe.github.io/navbar-startup/" role="button">Go to Website</a>
+	            <div className="whitespace"></div>
 	            </div>
 	           </div>
 	          </div>
@@ -100,6 +103,7 @@ const Websites = (props) => {
 		            </div>
 		            <div className="btnpad">
 		            <a className="btn" href="https://russellsoppe.github.io/startupmf/" role="button">Go to Website</a>
+		            <div className="whitespace"></div>
 		            </div>
 		           </div>
 	          </div>
@@ -121,6 +125,7 @@ const Websites = (props) => {
 	              </div>
 	              <div className="btnpad">
 	              <a className="btn" href="https://russellsoppe.github.io/calculator/" role="button">Go to Website</a>
+	              <div className="whitespace"></div>
 	              </div>
 		          </div>
 	          </div>

@@ -5,19 +5,243 @@
     color: white;
 }
 
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-	font-weight: bold;
-	color:#1AAB8A;
-}
-
 /*Main image*/
 .keyboardimg{
 	width: 100%;
     height: auto;
 }
+
+/* Main text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    font-weight: bold;
+    color:#1AAB8A;
+}
+
+/*Secondary Text*/
+.abouttext {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .5em;
+    color: white;
+}
+
+/*Contact Div*/
+.contactmediv{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Contact Button*/
+.contactmebutton{
+    height: 20px;
+    background:#1AAB8A;
+    color:#fff;
+    border: none;
+}
+
+/*Text at mobile side tilt*/
+
+@media screen and (min-width: 415px){
+    /* Main text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#1AAB8A;
+}
+
+/*Secondary Text*/
+.abouttext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .5em;
+    color: white;
+}
+
+/*Contact Div*/
+.contactmediv {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Contact Button*/
+.contactmebutton{
+    height: 20px;
+    background:#1AAB8A;
+    color:#fff;
+    border: none;
+}
+}
+
+@media screen and (min-width: 568px){
+    /* Main text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4em;
+    font-weight: bold;
+    color:#1AAB8A;
+}
+
+/*Secondary Text*/
+.abouttext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .4em;
+    color: white;
+}
+
+/*Contact Div*/
+.contactmediv {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Contact Button*/
+.contactmebutton{
+    height: 20px;
+    background:#1AAB8A;
+    color:#fff;
+    border: none;
+}
+}
+
+@media screen and (min-width: 812px){
+    /* Main text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: bold;
+    color:#1AAB8A;
+}
+
+/*Secondary Text*/
+.abouttext {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .6em;
+    color: white;
+}
+
+/*Contact Div*/
+.contactmediv {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Contact Button*/
+.contactmebutton{
+    height: 20px;
+    background:#1AAB8A;
+    color:#fff;
+    border: none;
+}
+}
+
+@media screen and (min-width: 1000px){
+    /* Main text */
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: bold;
+    color:#1AAB8A;
+}
+
+/*Secondary Text*/
+.abouttext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .8em;
+    color: white;
+}
+
+/*Contact Div*/
+.contactmediv {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Contact Button*/
+.contactmebutton{
+    height: 20px;
+    background:#1AAB8A;
+    color:#fff;
+    border: none;
+}
+
+}
+
+@media screen and (min-width: 1200px){
+    /* Main text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.2em;
+    font-weight: bold;
+    color:#1AAB8A;
+}
+
+/*Secondary Text*/
+.abouttext {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    color: white;
+}
+
+/*Contact Div*/
+.contactmediv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Contact Button*/
+.contactmebutton{
+    height: 40px;
+    width: 100px;
+    background:#1AAB8A;
+    color:#fff;
+    border: none;
+}
+}
+
