@@ -22,14 +22,41 @@
     color:#1AAB8A;
 }
 
+.centeredicons {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    font-weight: bold;
+    color:#1AAB8A;
+    display: flex;
+    flex-direction: row;
+    /*width: 50%;*/
+
+}
+
+.githubprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    padding-right: 10px;
+    font-size: 2em;
+    color:#1AAB8A; 
+}
+
 /*Secondary Text*/
 .abouttext {
     position: absolute;
-    top: 60%;
+    top: 64%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .5em;
     color: white;
+    width: 300px;
 }
 
 /*Contact Div*/
@@ -86,13 +113,39 @@
     color:#fff;
     border: none;
 }
+
+.centeredicons {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#1AAB8A;
+    display: flex;
+    flex-direction: row;
+    /*width: 50%;*/
+
+}
+
+.githubprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    padding-right: 10px;
+    font-size: 2em;
+    color:#1AAB8A; 
+}
 }
 
 @media screen and (min-width: 568px){
     /* Main text */
 .centered {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.4em;
@@ -125,6 +178,32 @@
     color:#fff;
     border: none;
 }
+
+.centeredicons {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#1AAB8A;
+    display: flex;
+    flex-direction: row;
+    /*width: 50%;*/
+
+}
+
+.githubprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    padding-right: 10px;
+    font-size: 2em;
+    color:#1AAB8A; 
+}
 }
 
 @media screen and (min-width: 812px){
@@ -142,11 +221,12 @@
 /*Secondary Text*/
 .abouttext {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .6em;
     color: white;
+    width: 500px;
 }
 
 /*Contact Div*/
@@ -163,6 +243,32 @@
     background:#1AAB8A;
     color:#fff;
     border: none;
+}
+
+.centeredicons {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#1AAB8A;
+    display: flex;
+    flex-direction: row;
+    /*width: 50%;*/
+
+}
+
+.githubprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    padding-right: 10px;
+    font-size: 2em;
+    color:#1AAB8A; 
 }
 }
 
@@ -181,11 +287,12 @@
 /*Secondary Text*/
 .abouttext {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .8em;
     color: white;
+    width: 700px;
 }
 
 /*Contact Div*/
@@ -202,6 +309,32 @@
     background:#1AAB8A;
     color:#fff;
     border: none;
+}
+
+.centeredicons {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#1AAB8A;
+    display: flex;
+    flex-direction: row;
+    /*width: 50%;*/
+
+}
+
+.githubprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    padding-right: 10px;
+    font-size: 2em;
+    color:#1AAB8A; 
 }
 
 }
@@ -221,7 +354,7 @@
 /*Secondary Text*/
 .abouttext {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.2em;
@@ -231,7 +364,7 @@
 /*Contact Div*/
 .contactmediv {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -242,6 +375,32 @@
     background:#1AAB8A;
     color:#fff;
     border: none;
+}
+
+.centeredicons {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#1AAB8A;
+    display: flex;
+    flex-direction: row;
+    /*width: 50%;*/
+
+}
+
+.githubprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    padding-right: 10px;
+    font-size: 2em;
+    color:#1AAB8A; 
 }
 }
 
