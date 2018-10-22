@@ -5,10 +5,9 @@ import { FaJs } from 'react-icons/fa';
 import { FaNodeJs } from 'react-icons/fa';
 import { FaReact } from 'react-icons/fa';
 import { FaHtml5 } from 'react-icons/fa';
-
 import { FaGithub } from 'react-icons/fa';
 import { FaCss3Alt } from 'react-icons/fa';
-import { FaCss3 } from 'react-icons/fa';
+
 
 const TopBanner = (props)=>{
 	return(
@@ -33,9 +32,9 @@ const TopBanner = (props)=>{
           <div className="githubprofile"><FaGithub className="github"/><div>https://github.com/RussellSoppe</div></div>
       </div>
       
-      <div className="contactmediv">
+      {/*<div className="contactmediv">
         <button onClick={()=> props.onOptionChange('Contact')} className="contactmebutton" >Contact Me</button>
-      </div>
+      </div>*/}
     </div>
      
 	);
