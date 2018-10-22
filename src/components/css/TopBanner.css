@@ -7,6 +7,7 @@
 
 /*Main image*/
 .keyboardimg{
+    vertical-align: bottom;
 	width: 100%;
     height: auto;
 }
@@ -20,14 +21,15 @@
     font-size: 1em;
     font-weight: bold;
     color:#1AAB8A;
+    width: 300px;
 }
 
 .centeredicons {
     position: absolute;
-    top: 38%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1em;
+    font-size: .7em;
     font-weight: bold;
     color:#1AAB8A;
     display: flex;
@@ -51,7 +53,7 @@
 /*Secondary Text*/
 .abouttext {
     position: absolute;
-    top: 64%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .5em;
@@ -62,16 +64,17 @@
 /*Contact Div*/
 .contactmediv{
     position: absolute;
-    top: 90%;
+    top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 /*Contact Button*/
 .contactmebutton{
-    height: 20px;
+    height: 10px;
     background:#1AAB8A;
     color:#fff;
     border: none;
+    font-size: .45em;
 }
 
 /*Text at mobile side tilt*/
@@ -181,10 +184,10 @@
 
 .centeredicons {
     position: absolute;
-    top: 30%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
     color:#1AAB8A;
     display: flex;
@@ -216,12 +219,13 @@
     font-size: 2em;
     font-weight: bold;
     color:#1AAB8A;
+    width: 500px;
 }
 
 /*Secondary Text*/
 .abouttext {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .6em;
@@ -247,10 +251,10 @@
 
 .centeredicons {
     position: absolute;
-    top: 30%;
+    top: 31%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
     color:#1AAB8A;
     display: flex;
@@ -404,3 +408,66 @@
 }
 }
 
+@media screen and (min-width: 1366px){
+    /* Main text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.2em;
+    font-weight: bold;
+    color:#1AAB8A;
+}
+
+/*Secondary Text*/
+.abouttext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    color: white;
+}
+
+/*Contact Div*/
+.contactmediv {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Contact Button*/
+.contactmebutton{
+    height: 40px;
+    width: 100px;
+    background:#1AAB8A;
+    color:#fff;
+    border: none;
+}
+
+.centeredicons {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#1AAB8A;
+    display: flex;
+    flex-direction: row;
+    /*width: 50%;*/
+}
+
+.githubprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    padding-right: 10px;
+    font-size: 2em;
+    color:#1AAB8A; 
+}
+}
