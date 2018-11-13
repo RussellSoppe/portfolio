@@ -9,6 +9,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaCss3Alt } from 'react-icons/fa';
 import { FaDatabase } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { FaPaperPlane } from 'react-icons/fa';
 
 // icons from https://www.npmjs.com/package/react-icons
 // list of icons here: https://react-icons.netlify.com/#/icons/fa
@@ -46,6 +47,12 @@ const TopBanner = (props)=>{
             <a className="githubprofile" href="https://www.linkedin.com/in/russell-soppe-6618ba10a">
               <FaLinkedin className="github"/>
               <span className="profiletext">Check me out at Linkedin</span>
+            </a>
+          </div>
+          <div className="githubprofile">
+            <a className="githubprofile" href="mailto: dev@russellsoppe.com">
+              <FaPaperPlane className="github"/> 
+              <span className="profiletext">dev@russellsoppe.com</span>
             </a>
           </div>
       </div>
