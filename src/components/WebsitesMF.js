@@ -10,6 +10,22 @@ import calculator from './images/calculator.png';
 const WebsitesMF = (props) => {
 	
 		return(
+
+	          <div className="outercard">
+	            <div className="innercard">
+	            	<div className="cardtexttitle" data-aos="fade-down">
+	              	<h1>React and Clarifai API</h1>
+		            </div>
+	            	<div data-aos="fade-up">
+	            		<img className="webimg" alt="React and Clarifai API" src={facebrain}></img>
+	              </div>
+	            	<div className="cardtext" data-aos="fade-down">
+	            		
+		              <p>This website was created with React using the Clarifai API to detect faces in a picture!</p>
+		              <a className="btn" href="https://russellsoppe.github.io/facebrain/" role="button">Go to Website</a>
+	            	</div>
+	            </div>
+	          </div>
 			
 		 			<div  className="websites">
 		 			  <div className="outercard">
@@ -27,21 +43,6 @@ const WebsitesMF = (props) => {
 	            </div>
 	          </div>
 	        
-	          <div className="outercard">
-	            <div className="innercard">
-	            	<div className="cardtexttitle" data-aos="fade-down">
-	              	<h1>React and Clarifai API</h1>
-		            </div>
-	            	<div data-aos="fade-up">
-	            		<img className="webimg" alt="React and Clarifai API" src={facebrain}></img>
-	              </div>
-	            	<div className="cardtext" data-aos="fade-down">
-	            		
-		              <p>This website was created with React using the Clarifai API to detect faces in a picture!</p>
-		              <a className="btn" href="https://russellsoppe.github.io/facebrain/" role="button">Go to Website</a>
-	            	</div>
-	            </div>
-	          </div>
 	     
            	<div className="outercard">
 	            <div className="innercard">

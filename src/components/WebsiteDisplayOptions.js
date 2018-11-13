@@ -8,7 +8,7 @@ const WebsiteDisplayOptions = (props)=>{
 	     <div className="websitebuttongroupo">
 	      <button onClick={()=> props.onOptionChange('mobilefirst')} className="websitebuttono">Mobile</button>
 	      <button onClick={()=> props.onOptionChange('scrollingiframe')} className="websitebuttono">Side by Side</button>
-	      <button onClick={()=> props.onOptionChange('oneatatime')} className="websitebuttono">Single iFrame</button>
+	      {/*<button onClick={()=> props.onOptionChange('oneatatime')} className="websitebuttono">Single iFrame</button>*/}
 	     </div>
 	    </div>
     </div>
