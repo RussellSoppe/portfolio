@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/TopBanner.css';
-import keyboard from './images/keyboard.jpg';
+import keyboard from './images/keyboard500x792.jpg';
 import { FaJs } from 'react-icons/fa';
 import { FaNodeJs } from 'react-icons/fa';
 import { FaReact } from 'react-icons/fa';
