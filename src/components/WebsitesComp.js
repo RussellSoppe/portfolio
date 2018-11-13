@@ -6,23 +6,36 @@ import backgen from './images/backgen.PNG';
 import navbarsu from './images/navbarsu.PNG';
 import mfnavbar from './images/mfnavbar.PNG';
 import calculator from './images/calculator.png';
+import robofriends from './images/robofriends.png';
 
-const Websites = (props) => {
+const WebsitesComp = (props) => {
 	
 		return(
 		 			<div  className="websitesalt">
 
  						<div className="outercard">
 	            <div className="innercardalt">
-	            	
-	            	<div className="cardtext" data-aos="fade-right">
+	            	<div data-aos="fade-right">
+	            		<a href="https://russellsoppe.github.io/facebrain/"><img className="webimgalt" alt="React and Clarifai API" src={facebrain}></img></a>
+	              </div>
+	            	<div className="cardtext" data-aos="fade-left">
 	            		<h1>React and Clarifai API</h1>
-		              <p>This website was created with React using the Clarifai API to detect faces in a picture!</p>
+		              <p>This website was created with React using the Clarifai API to detect a face in a picture!</p>
 		              <a className="btn" href="https://russellsoppe.github.io/facebrain/" role="button">Go to Website</a>
 	            	</div>
-	            	<div data-aos="fade-left">
-	            		<img className="webimgalt" alt="React and Clarifai API" src={facebrain}></img>
+	            </div>
+	          </div>
+
+	          <div className="outercard">
+	            <div className="innercardalt">
+	          		<div className="cardtext" data-aos="fade-right">
+	              	<h1>Robofriends React App</h1>
+		              <p>This website was created with React.</p>
+		              <a className="btn" href="https://russellsoppe.github.io/robofriends/" role="button">Go to Website</a>
 	              </div>
+	              <div data-aos="fade-left">
+				         <img className="webimgalt" alt="Robo Friends" src={robofriends}></img>
+	          		</div>
 	            </div>
 	          </div>
 
@@ -36,7 +49,6 @@ const Websites = (props) => {
 		              <p>This website was created with React using the Star Wars API.</p>
 		              <a className="btn" href="https://russellsoppe.github.io/StarWars/" role="button">Go to Website</a>
 	              </div>
-	              
 	            </div>
 	          </div>
 	        
@@ -97,4 +109,4 @@ const Websites = (props) => {
 	 		
 }
 
-export default Websites;
+export default WebsitesComp;

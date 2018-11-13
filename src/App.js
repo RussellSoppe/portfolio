@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import WebsiteMenu from './components/WebsiteMenu';
 import Websites from './components/Websites';
-import WebsitesAlt from './components/WebsitesAlt';
+import WebsitesComp from './components/WebsitesComp';
 import WebsitesMF from './components/WebsitesMF';
 import Footer from './components/Footer';
 import TopBanner from './components/TopBanner';
@@ -43,15 +43,9 @@ class App extends Component {
         <BackgroundImg/>
         <TopBanner/>
         <WebsiteDisplayOptions onOptionChange={this.onOptionChange}/>
-        {this.state.websiteoptions==="oneatatime" 
-         ?<div>
-            <WebsiteMenu onPageChange={this.onPageChange}/>
-            <Websites currentsite={this.state.website}/>
-          </div>
-        :(this.state.websiteoptions==="scrollingiframe"
-          ?<WebsitesAlt/>
-          :<WebsitesMF/>
-          )
+        {this.state.websiteoptions==="mobilefirst" 
+         ?<WebsitesMF/>
+         :<WebsitesComp/>
         }
         <Footer />
       </div>

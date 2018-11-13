@@ -6,25 +6,40 @@ import backgen from './images/backgen.PNG';
 import navbarsu from './images/navbarsu.PNG';
 import mfnavbar from './images/mfnavbar.PNG';
 import calculator from './images/calculator.png';
+import robofriends from './images/robofriends.png';
 
 const WebsitesMF = (props) => {
 	
 		return(
 					<div  className="websites">
 
-					
+
 	          <div className="outercard">
 	            <div className="innercard">
 	            	<div className="cardtexttitle" data-aos="fade-down">
 	              	<h1>React and Clarifai API</h1>
 		            </div>
 	            	<div data-aos="fade-up">
-	            		<img className="webimg" alt="React and Clarifai API" src={facebrain}></img>
+	            	<a href="https://russellsoppe.github.io/facebrain/"><img className="webimg" alt="React and Clarifai API" src={facebrain}></img></a>
 	              </div>
 	            	<div className="cardtext" data-aos="fade-down">
-	            		
-		              <p>This website was created with React using the Clarifai API to detect faces in a picture!</p>
+		              <p>This website was created with React using the Clarifai API to detect a face in a picture!</p>
 		              <a className="btn" href="https://russellsoppe.github.io/facebrain/" role="button">Go to Website</a>
+	            	</div>
+	            </div>
+	          </div>
+
+	          <div className="outercard">
+	            <div className="innercard">
+	            	<div className="cardtexttitle" data-aos="fade-down">
+	              	<h1>Robofriends React App</h1>
+		            </div>
+	            	<div data-aos="fade-up">
+	            	<a href="https://russellsoppe.github.io/robofriends/"><img className="webimg" alt="Robots" src={robofriends}></img></a>
+	              </div>
+	            	<div className="cardtext" data-aos="fade-down">
+		              <p>This website was created with React</p>
+		              <a className="btn" href="https://russellsoppe.github.io/robofriends/" role="button">Go to Website</a>
 	            	</div>
 	            </div>
 	          </div>

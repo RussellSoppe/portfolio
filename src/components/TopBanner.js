@@ -12,7 +12,7 @@ import { FaCss3Alt } from 'react-icons/fa';
 const TopBanner = (props)=>{
 	return(
      <div className="container">
-      <img className="keyboardimg" src={keyboard} alt="abstract smoke swirls">
+      <img className="keyboardimg" src={keyboard} alt="closeup of keyboard">
       </img>
       <div className="centered">Russell Soppe <br/> Full Stack Web Developer
       </div>
