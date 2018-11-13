@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import WebsiteMenu from './components/WebsiteMenu';
-import Websites from './components/Websites';
+// import WebsiteMenu from './components/WebsiteMenu';
+// import Websites from './components/Websites';
 import WebsitesComp from './components/WebsitesComp';
 import WebsitesMF from './components/WebsitesMF';
 import Footer from './components/Footer';
