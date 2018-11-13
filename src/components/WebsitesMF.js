@@ -10,7 +10,9 @@ import calculator from './images/calculator.png';
 const WebsitesMF = (props) => {
 	
 		return(
+					<div  className="websites">
 
+					
 	          <div className="outercard">
 	            <div className="innercard">
 	            	<div className="cardtexttitle" data-aos="fade-down">
@@ -27,7 +29,7 @@ const WebsitesMF = (props) => {
 	            </div>
 	          </div>
 			
-		 			<div  className="websites">
+		 			
 		 			  <div className="outercard">
 	            <div className="innercard">
 	            	<div className="cardtexttitle" data-aos="fade-down">
