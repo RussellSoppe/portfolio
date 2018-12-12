@@ -8,25 +8,25 @@ const Footer = ()=>{
 	return(
 
 		<div className="footer">
-		 	<div>This site is being created by Russell Soppe.</div> 
-		 	<div className="githubprofile">
-            <a className="githubprofile" href="https://github.com/RussellSoppe">
-              <FaGithub className="github"/>
-              <span className="profiletext">https://github.com/RussellSoppe</span>
-            </a>
-          </div>
-          <div className="githubprofile">
-            <a className="githubprofile" href="https://www.linkedin.com/in/russell-soppe-6618ba10a">
-              <FaLinkedin className="github"/>
-              <span className="profiletext">Check me out at Linkedin</span>
-            </a>
-          </div>
-          <div className="githubprofile">
-            <a className="githubprofile" href="mailto: dev@russellsoppe.com">
-              <FaPaperPlane className="github"/> 
-              <span className="profiletext">dev@russellsoppe.com</span>
-            </a>
-          </div>
+		 	<div>
+        This site is being created by Russell Soppe.
+      </div> 
+		  <div> 
+        I can be found here:
+      </div>
+      <div>
+          <a href="https://github.com/RussellSoppe">
+            <FaGithub className="pericons"/>
+          </a>
+          <a>
+            <FaLinkedin className="pericons"/>
+          </a>
+          <a>
+            <FaPaperPlane className="pericons"/> 
+          </a>
+      </div>
+        
+       
 		 	<div className="whitespace"></div>
 
 		</div>

@@ -58,6 +58,64 @@ a .githubprofile{
     color:#1AAB8A; 
 }
 
+
+
+/*new stuff Start*/
+
+#personalaboutmediv{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pericons{
+    color:#1AAB8A; 
+}
+
+#periconsdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#aboutmeiconmasterdiv{
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+    /*background-color: white;*/
+   /* opacity:.7;*/
+
+}
+
+.aboutmeicondivs{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+    align-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.aboutmeicons{
+color:#1AAB8A;
+font-size: 1em;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.aboutmeicontext{
+    color: orange;
+    font-size: 1em;
+}
+
+/*new stuff ends?*/
+
+
+
 .connectingicon{
     padding-right: 10px;
     font-size: 3em;
@@ -93,6 +151,8 @@ a .githubprofile{
 
 /*Text at mobile side tilt*/
 
+/*max means less than or equal to*/
+/*min means greater than or equal too*/
 @media screen and (min-width: 415px){
     /* Main text */
 .centered {
@@ -158,6 +218,8 @@ a .githubprofile{
 }
 }
 
+/*max means less than or equal to*/
+/*min means greater than or equal too*/
 @media screen and (min-width: 568px){
     /* Main text */
 .centered {
@@ -223,6 +285,9 @@ a .githubprofile{
 }
 }
 
+/*max means less than or equal to*/
+/*min means greater than or equal too*/
+/*for mobile or pc?*/
 @media screen and (min-width: 812px){
     /* Main text */
 .centered {
@@ -288,8 +353,64 @@ a .githubprofile{
     font-size: 2em;
     color:#1AAB8A; 
 }
+
+/*new stuff Start*/
+
+#personalaboutmediv{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.pericons{
+    color:#1AAB8A; 
+}
+
+#periconsdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#aboutmeiconmasterdiv{
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+    /*background-color: white;*/
+   /* opacity:.7;*/
+
+}
+
+.aboutmeicondivs{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+    align-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.aboutmeicons{
+color:#1AAB8A;
+font-size: 1em;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.aboutmeicontext{
+    color: orange;
+    font-size: 1em;
+}
+
+/*new stuff ends?*/
+}
+
+/*max means less than or equal to*/
+/*min means greater than or equal too*/
 @media screen and (min-width: 1000px){
     /* Main text */
 .centered {
@@ -357,6 +478,8 @@ a .githubprofile{
 
 }
 
+/*max means less than or equal to*/
+/*min means greater than or equal too*/
 @media screen and (min-width: 1200px){
     /* Main text */
 .centered {
@@ -422,6 +545,8 @@ a .githubprofile{
 }
 }
 
+/*max means less than or equal to*/
+/*min means greater than or equal too*/
 @media screen and (min-width: 1366px){
     /* Main text */
 .centered {
@@ -484,4 +609,60 @@ a .githubprofile{
     font-size: 2em;
     color:#1AAB8A; 
 }
+
+/*new stuff Start*/
+
+#personalaboutmediv{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.pericons{
+    color:#1AAB8A; 
+}
+
+#periconsdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#aboutmeiconmasterdiv{
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    /*background-color: white;*/
+   /* opacity:.7;*/
+
+}
+
+.aboutmeicondivs{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.aboutmeicons{
+color:#1AAB8A;
+font-size: 1.5em;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.aboutmeicontext{
+    color: orange;
+    font-size: 1.5em;
+}
+
+/*new stuff ends?*/
+
 }
