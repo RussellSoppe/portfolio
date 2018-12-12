@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+// remember that for non default exports must destructure
+import {mobilearray} from './components/WebsiteArrays';
 // import WebsiteMenu from './components/WebsiteMenu';
 // import Websites from './components/Websites';
 import WebsitesComp from './components/WebsitesComp';
@@ -25,7 +27,7 @@ class App extends Component {
 
   componentDidMount(){
     AOS.init({
-      duration : 2000
+      duration : 3000
     })
   }
 
@@ -44,7 +46,9 @@ class App extends Component {
         <TopBanner/>
         <WebsiteDisplayOptions onOptionChange={this.onOptionChange}/>
         {this.state.websiteoptions==="mobilefirst" 
-         ?<WebsitesMF/>
+         ?<WebsitesMF
+         mobilearray={mobilearray}
+         />
          :<WebsitesComp/>
         }
         <Footer />
