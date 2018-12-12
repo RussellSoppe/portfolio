@@ -44,7 +44,7 @@ const TopBanner = (props)=>{
 
         <div id="personalaboutmediv">{/*personal divs starts here*/}
 
-          <div>{/*abouttext starts here*/}
+          <div id="abouttext">{/*abouttext starts here*/}
             <div>
               Welcome
             </div> 
@@ -116,7 +116,7 @@ const TopBanner = (props)=>{
             </a>
           </div>
 
-          <div>
+          <div id="seemyprojecttext">
             If you are interested in some of my projects, scroll below.
           </div>
           {/*<div className="githubprofile">
