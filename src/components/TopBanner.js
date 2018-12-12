@@ -108,10 +108,10 @@ const TopBanner = (props)=>{
             <a href="https://github.com/RussellSoppe">
               <FaGithub className="pericons"/>
             </a>
-            <a>
+            <a href="https://www.linkedin.com/in/russell-soppe-6618ba10a">
               <FaLinkedin className="pericons"/>
             </a>
-            <a>
+            <a href="mailto: dev@russellsoppe.com">
               <FaPaperPlane className="pericons"/> 
             </a>
           </div>
