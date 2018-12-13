@@ -20,7 +20,7 @@ webaddress:'https://mealplanningmadeeasy.herokuapp.com/'
 },
 {
 title:'React and Clarifai API',
-imgsource:Face Detective,
+imgsource:facebrain,
 imgalt:'React and Clarifai API',
 description:'This website was created with React using the Clarifai API to detect a face in a picture!',
 github:'https://github.com/RussellSoppe/facebrain',
