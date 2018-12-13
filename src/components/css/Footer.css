@@ -1,3 +1,28 @@
 .footer{
 	color:white;
+	font-size: .5em;
+}
+
+#footercontactdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    height: 35px;
+}
+
+#footercontacttext{
+    display: flex;
+    align-content: center;
+}
+
+.footercontacticons{
+    display: block;
+    /*display block makes it act like a p tag and removes ghost space due to class^="icon" with the fa icon
+    https://stackoverflow.com/questions/38501042/why-font-awesome-icons-have-weird-margin-on-top-when-using-small-font-sizes*/
+    color:#1AAB8A; 
+    padding-left: 10px;
+    font-size: 1.5em;
+    display: block;
 }

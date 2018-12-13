@@ -1,20 +1,20 @@
-/* Container holding the image and the text */
-.container {
+/* Main DIV for Entire Component */
+#topbannerdiv {
     position: relative;
     text-align: center;
     color: white;
 }
 
 /*Main image*/
-.keyboardimg{
+#keyboardimg{
     vertical-align: bottom;
-	height: 667px;
+	height: 568px;
     width: 100%;
     
 }
 
-/* Main text */
-.centered {
+/* NAME, TITLE, FULL STACK ICONS */
+#nametitlediv {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -25,21 +25,113 @@
     width: 300px;
 }
 
-.centeredicons {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
+#fullstackicons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.5em;
     font-weight: bold;
     color:#1AAB8A;
-    display: flex;
-    flex-direction: row;
-    /*width: 50%;*/
-
+    padding-top: 15px;
 }
 
-.githubprofile{
+/*ABOUT DIV STARTS HERE*/
+#aboutmemasterdiv {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .5em;
+    color: white;
+    width: 300px;
+}
+
+#aboutmediv{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#introtext{
+    font-size: 2em;
+}
+
+#welcometext{
+    font-size: 1.5em;
+}
+
+/*Icon Column Starts*/
+#aboutmeiconmasterdiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aboutmeicondivs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.aboutmeicons{  
+    display: block;
+    color:#1AAB8A;
+    font-size: 2.5em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.aboutmeicontext{
+    color: orange;
+    font-size: 2.5em;
+}
+/*Icon Column Ends*/
+
+#contactmasterdiv{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .5em;
+    color: white;
+    width: 300px;
+}
+
+#contactdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    height: 50px;
+}
+
+#contacttext{
+    display: flex;
+    align-content: center;
+}
+
+.contacticons{
+    display: block;
+    /*display block makes it act like a p tag and removes ghost space due to class^="icon" with the fa icon
+    https://stackoverflow.com/questions/38501042/why-font-awesome-icons-have-weird-margin-on-top-when-using-small-font-sizes*/
+    color:#1AAB8A; 
+    padding-left: 10px;
+    font-size: 1.5em;
+    display: block;
+}
+
+#seemyprojecttext{
+    font-size: 2em;
+}
+
+
+
+/*not sure what these belong to*/
+/*.githubprofile{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,773 +149,30 @@ a .githubprofile{
     padding-right: 10px;
     font-size: 2em;
     color:#1AAB8A; 
-}
+}*/
 
 
-/*new stuff Start*/
-
-#personalaboutmediv{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#abouttext{
-    font-size: 2em;
-}
-
-.pericons{
-    color:#1AAB8A; 
-}
-
-#periconsdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    font-size: 2em;
-}
-
-#seemyprojecttext{
-    font-size: 2em;
-}
-
-#aboutmeiconmasterdiv{
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    /*background-color: white;*/
-   /* opacity:.7;*/
-
-}
-
-.aboutmeicondivs{
-    display: flex;
-    /*justify-content: center;*/
-    flex-direction: row;
-    align-content: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.aboutmeicons{
-color:#1AAB8A;
-font-size: 2.5em;
-padding-left: 5px;
-padding-right: 5px;
-}
-
-.aboutmeicontext{
-    color: orange;
-    font-size: 2.5em;
-}
-
-/*new stuff ends?*/
-
-
-
-.connectingicon{
+/*.connectingicon{
     padding-right: 10px;
     font-size: 3em;
     color:#1AAB8A; 
 }
 
-/*Secondary Text*/
-.abouttext {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: .5em;
-    color: white;
-    width: 300px;
-}
 
 /*Contact Div*/
-.contactmediv{
+/*.contactmediv{
     position: absolute;
     top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+}*/
 /*Contact Button*/
-.contactmebutton{
+/*.contactmebutton{
     height: 10px;
     background:#1AAB8A;
     color:#fff;
     border: none;
     font-size: .45em;
-}
+}*/
 
-/*Text at mobile side tilt*/
 
-/*max means less than or equal to*/
-/*min means greater than or equal too*/
-@media screen and (min-width: 415px){
-    /* Main text */
-.centered {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5em;
-    font-weight: bold;
-    color:#1AAB8A;
-}
-
-/*Secondary Text*/
-.abouttext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: .5em;
-    color: white;
-}
-
-/*Contact Div*/
-.contactmediv {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*Contact Button*/
-.contactmebutton{
-    height: 20px;
-    background:#1AAB8A;
-    color:#fff;
-    border: none;
-}
-
-.centeredicons {
-    position: absolute;
-    top: 27%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    font-weight: bold;
-    color:#1AAB8A;
-    display: flex;
-    flex-direction: row;
-    /*width: 50%;*/
-
-}
-
-.githubprofile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.github{
-    padding-right: 10px;
-    font-size: 2em;
-    color:#1AAB8A; 
-}
-}
-
-/*max means less than or equal to*/
-/*min means greater than or equal too*/
-@media screen and (min-width: 568px){
-
-.keyboardimg{
-    vertical-align: bottom;
-    height: 375px;
-    width: 100%;
-    
-}
-    /* Main text */
-.centered {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.4em;
-    font-weight: bold;
-    color:#1AAB8A;
-}
-
-/*Secondary Text*/
-.abouttext {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: .4em;
-    color: white;
-}
-
-/*Contact Div*/
-.contactmediv {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*Contact Button*/
-.contactmebutton{
-    height: 20px;
-    background:#1AAB8A;
-    color:#fff;
-    border: none;
-}
-
-.centeredicons {
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.3em;
-    font-weight: bold;
-    color:#1AAB8A;
-    display: flex;
-    flex-direction: row;
-    /*width: 50%;*/
-
-}
-
-.githubprofile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.github{
-    padding-right: 10px;
-    font-size: 2em;
-    color:#1AAB8A; 
-}
-/*new stuff Start*/
-
-#personalaboutmediv{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#abouttext{
-    font-size: 2em;
-}
-
-.pericons{
-    color:#1AAB8A; 
-}
-
-#periconsdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    font-size: 2em;
-}
-
-#seemyprojecttext{
-    font-size: 2em;
-}
-
-#aboutmeiconmasterdiv{
-    padding-top: 10px;
-    padding-bottom: 0px;
-
-    /*background-color: white;*/
-   /* opacity:.7;*/
-
-}
-
-.aboutmeicondivs{
-    display: flex;
-    /*justify-content: center;*/
-    flex-direction: row;
-    align-content: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.aboutmeicons{
-color:#1AAB8A;
-font-size: 2.5em;
-padding-left: 5px;
-padding-right: 5px;
-}
-
-.aboutmeicontext{
-    color: orange;
-    font-size: 2.5em;
-}
-
-/*new stuff ends?*/
-}
-
-/*max means less than or equal to*/
-/*min means greater than or equal too*/
-/*for mobile or pc?*/
-@media screen and (min-width: 812px){
-    /* Main text */
-.centered {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-    font-weight: bold;
-    color:#1AAB8A;
-    width: 500px;
-}
-
-/*Secondary Text*/
-.abouttext {
-    position: absolute;
-    top: 67%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: .6em;
-    color: white;
-    width: 500px;
-}
-
-/*Contact Div*/
-.contactmediv {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*Contact Button*/
-.contactmebutton{
-    height: 20px;
-    background:#1AAB8A;
-    color:#fff;
-    border: none;
-}
-
-.centeredicons {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5em;
-    font-weight: bold;
-    color:#1AAB8A;
-    display: flex;
-    flex-direction: row;
-    /*width: 50%;*/
-
-}
-
-.githubprofile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.github{
-    padding-right: 10px;
-    font-size: 2em;
-    color:#1AAB8A; 
-}
-
-/*new stuff Start*/
-
-#personalaboutmediv{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#abouttext{
-    font-size: 1.5em;
-}
-
-#seemyprojecttext{
-    font-size: 1.5em;
-}
-
-.pericons{
-    color:#1AAB8A; 
-}
-
-#periconsdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-}
-
-#aboutmeiconmasterdiv{
-    padding-top: 10px;
-    padding-bottom: 0px;
-
-    /*background-color: white;*/
-   /* opacity:.7;*/
-
-}
-
-.aboutmeicondivs{
-    display: flex;
-    /*justify-content: center;*/
-    flex-direction: row;
-    align-content: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.aboutmeicons{
-color:#1AAB8A;
-font-size: 2em;
-padding-left: 5px;
-padding-right: 5px;
-}
-
-.aboutmeicontext{
-    color: orange;
-    font-size: 2em;
-}
-
-/*new stuff ends?*/
-}
-
-/*max means less than or equal to*/
-/*min means greater than or equal too*/
-@media screen and (min-width: 1000px){
-
-.keyboardimg{
-    vertical-align: bottom;
-    width: 100%;
-    height: auto;
-}
-    /* Main text */
-.centered {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-    font-weight: bold;
-    color:#1AAB8A;
-}
-
-/*Secondary Text*/
-.abouttext {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: .8em;
-    color: white;
-    width: 700px;
-}
-
-/*Contact Div*/
-.contactmediv {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*Contact Button*/
-.contactmebutton{
-    height: 20px;
-    background:#1AAB8A;
-    color:#fff;
-    border: none;
-}
-
-.centeredicons {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    font-weight: bold;
-    color:#1AAB8A;
-    display: flex;
-    flex-direction: row;
-    /*width: 50%;*/
-
-}
-
-.githubprofile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.github{
-    padding-right: 10px;
-    font-size: 2em;
-    color:#1AAB8A; 
-}
-
-}
-
-/*max means less than or equal to*/
-/*min means greater than or equal too*/
-@media screen and (min-width: 1200px){
-    /* Main text */
-.centered {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.2em;
-    font-weight: bold;
-    color:#1AAB8A;
-}
-
-/*Secondary Text*/
-.abouttext {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.2em;
-    color: white;
-}
-
-/*Contact Div*/
-.contactmediv {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-/*Contact Button*/
-.contactmebutton{
-    height: 40px;
-    width: 100px;
-    background:#1AAB8A;
-    color:#fff;
-    border: none;
-}
-
-.centeredicons {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    font-weight: bold;
-    color:#1AAB8A;
-    display: flex;
-    flex-direction: row;
-    /*width: 50%;*/
-
-}
-
-.githubprofile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.github{
-    padding-right: 10px;
-    font-size: 2em;
-    color:#1AAB8A; 
-}
-/*new stuff Start*/
-
-#personalaboutmediv{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#abouttext{
-    font-size: 1em;
-}
-
-#seemyprojecttext{
-    font-size: 1em;
-}
-
-.pericons{
-    color:#1AAB8A; 
-}
-
-#periconsdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-}
-
-#aboutmeiconmasterdiv{
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    /*background-color: white;*/
-   /* opacity:.7;*/
-
-}
-
-.aboutmeicondivs{
-    display: flex;
-    /*justify-content: center;*/
-    flex-direction: row;
-    align-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.aboutmeicons{
-color:#1AAB8A;
-font-size: 2em;
-padding-left: 5px;
-padding-right: 5px;
-}
-
-.aboutmeicontext{
-    color: orange;
-    font-size: 1em;
-}
-
-/*new stuff ends?*/
-}
-
-/*max means less than or equal to*/
-/*min means greater than or equal too*/
-@media screen and (min-width: 1366px){
-    /* Main text */
-.centered {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    font-weight: bold;
-    color:#1AAB8A;
-}
-
-/*Secondary Text*/
-.abouttext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.2em;
-    color: white;
-}
-
-/*Contact Div*/
-.contactmediv {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-/*Contact Button*/
-.contactmebutton{
-    height: 40px;
-    width: 100px;
-    background:#1AAB8A;
-    color:#fff;
-    border: none;
-}
-
-.centeredicons {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    font-weight: bold;
-    color:#1AAB8A;
-    display: flex;
-    flex-direction: row;
-    /*width: 50%;*/
-}
-
-.githubprofile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.github{
-    padding-right: 10px;
-    font-size: 2em;
-    color:#1AAB8A; 
-}
-
-/*new stuff Start*/
-
-#personalaboutmediv{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-}
-
-#abouttext{
-    font-size: 1em;
-}
-
-#seemyprojecttext{
-    font-size: 1em;
-}
-
-.pericons{
-    color:#1AAB8A; 
-}
-
-#periconsdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-}
-
-#aboutmeiconmasterdiv{
-    padding-top: 40px;
-    padding-bottom: 20px;
-
-    /*background-color: white;*/
-   /* opacity:.7;*/
-
-}
-
-.aboutmeicondivs{
-    display: flex;
-    /*justify-content: center;*/
-    flex-direction: row;
-    align-items: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.aboutmeicons{
-color:#1AAB8A;
-font-size: 1.5em;
-padding-left: 5px;
-padding-right: 5px;
-}
-
-.aboutmeicontext{
-    color: orange;
-    font-size: 1.5em;
-}
-
-/*new stuff ends?*/
-
-}
