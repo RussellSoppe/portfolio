@@ -38,6 +38,18 @@ iframe {
 	justify-content: center;*/
 }
 
+.cardtexttitle{
+	color: #1AAB8A;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+	/*color: black;*/
+}
+
 .webimg{
 	height: auto;
 	width: 300px;
@@ -99,4 +111,9 @@ iframe {
     padding-right: 10px;
     font-size: 3em;
     color:#1AAB8A; 
+/*    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;*/
 }

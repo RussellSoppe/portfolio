@@ -19,7 +19,7 @@ const WebsitesComp = (props) => {
 				            		<a href={comparray[i].webaddress}><img className="webimgalt" alt={comparray[i].imgalt} src={comparray[i].imgsource}></img></a>
 				              </div>
 				            	<div className="cardtext" data-aos={comparray[i].dataaos2}>
-				            		<h1>{comparray[i].title}</h1>
+				            		<div className="cardtexttitle">{comparray[i].title}</div>
 					              <p>{comparray[i].description}</p>
 					              <a href={comparray[i].github}><FaGithub className="connectingicon"/></a>
 					             	<a href={comparray[i].webaddress}><FaDesktop className="connectingicon"/></a>
@@ -32,7 +32,7 @@ const WebsitesComp = (props) => {
 			          	<div className="outercard">
 			            	<div className="innercardalt">  
 				            	<div className="cardtext" data-aos={comparray[i].dataaos2}>
-				            		<h1>{comparray[i].title}</h1>
+				            		<div className="cardtexttitle">{comparray[i].title}</div>
 					              <p>{comparray[i].description}</p>
 					              <a href={comparray[i].github}><FaGithub className="connectingicon"/></a>
 					             	<a href={comparray[i].webaddress}><FaDesktop className="connectingicon"/></a>

@@ -3,6 +3,8 @@
     position: relative;
     text-align: center;
     color: white;
+
+
 }
 
 /*Main image*/
@@ -10,7 +12,7 @@
     vertical-align: bottom;
 	height: 568px;
     width: 100%;
-    
+     filter: blur(10px);
 }
 
 /* NAME, TITLE, FULL STACK ICONS */
@@ -23,6 +25,12 @@
     font-weight: bold;
     color:#1AAB8A;
     width: 300px;
+        text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+   
 }
 
 #fullstackicons {

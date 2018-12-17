@@ -19,8 +19,8 @@ const WebsitesMF = (props) => {
 					return(
 						<div className="outercard">
 	            <div className="innercard">
-	            	<div className="cardtexttitle" data-aos="fade-up">
-	              	<h1>{mobilearray[i].title}</h1>
+	            	<div data-aos="fade-up">
+	              	<div className="cardtexttitle">{mobilearray[i].title}</div>
 		            </div>
 	            	<div data-aos="fade-up">
 	            	<a href={mobilearray[i].webaddress}><img className="webimg" alt={mobilearray[i].imgalt} src={mobilearray[i].imgsource}></img></a>
