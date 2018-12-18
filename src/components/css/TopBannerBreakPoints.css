@@ -150,7 +150,7 @@
 #keyboardimg{
     vertical-align: bottom;
     /*height matches width of Galaxy S5*/
-    height: auto;
+    height: 500px;
     width: 100%;
     
 }
@@ -271,140 +271,7 @@
 }
 
 
-/*max means less than or equal to*/
-/*min means greater than or equal too*/
-@media screen and (min-width: 768px){
 
-/* Main DIV for Entire Component */
-#topbannerdiv {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-/*Main image*/
-#keyboardimg{
-    vertical-align: bottom;
-    /*height matches width of Galaxy S5*/
-    height: auto;
-    width: 100%;
-    
-}
-
-/* NAME, TITLE, FULL STACK ICONS */
-#nametitlediv {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-    font-weight: bold;
-    color:#1AAB8A;
-    width: 500px;
-}
-
-#fullstackicons {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    font-size: 1.5em;
-    font-weight: bold;
-    color:#1AAB8A;
-    padding-top: 15px;
-}
-
-/*ABOUT DIV STARTS HERE*/
-#aboutmemasterdiv {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: .5em;
-    color: white;
-    width: 500px;
-}
-
-#aboutmediv{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#introtext{
-    font-size: 3em;
-}
-
-#welcometext{
-    font-size: 1.5em;
-}
-
-/*Icon Column Starts*/
-#aboutmeiconmasterdiv{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.aboutmeicondivs{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.aboutmeicons{
-    display: block;
-    color:#1AAB8A;
-    font-size: 3.5em;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.aboutmeicontext{
-    color: orange;
-    font-size: 3.5em;
-}
-/*Icon Column Ends*/
-#contactmasterdiv{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: .5em;
-    color: white;
-    width: 300px;
-}
-
-#contactdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    height: 30px;
-}
-
-#contacttext{
-    display: flex;
-    align-content: center;
-}
-
-.contacticons{
-    display: block;
-    /*display block makes it act like a p tag and removes ghost space due to class^="icon" with the fa icon
-    https://stackoverflow.com/questions/38501042/why-font-awesome-icons-have-weird-margin-on-top-when-using-small-font-sizes*/
-    color:#1AAB8A; 
-    padding-left: 10px;
-    font-size: 1.5em;
-    display: block;
-}
-
-#seemyprojecttext{
-    font-size: 2em;
-}
-}
 
 
 

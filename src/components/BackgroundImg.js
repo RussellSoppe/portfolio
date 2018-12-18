@@ -5,7 +5,8 @@ import abstractimg from './images/abstract-art-artistic-1020315.jpg';
 const BackgroundImg = ()=>{
 	return(
     <div>
-    	<img className="backgroundimg" alt="abstract smoke swirls" src={abstractimg}></img>
+    	{/*<img className="backgroundimg" alt="abstract smoke swirls" src={abstractimg}></img>*/}
+    	<div className="backgroundimg"></div>
 		</div>
 	);
 }

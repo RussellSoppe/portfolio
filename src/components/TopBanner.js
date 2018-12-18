@@ -24,8 +24,8 @@ const TopBanner = (props)=>{
 	return(
      <div id="topbannerdiv">{/*TopBanner Div Starts*/}
 
-      <img id="keyboardimg" src={keyboard} alt="closeup of keyboard">
-      </img>
+      <div id="keyboardimg" >
+      </div>
 
       <div id="nametitlediv">
         <div>

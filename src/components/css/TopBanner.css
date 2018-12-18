@@ -12,7 +12,17 @@
     vertical-align: bottom;
 	height: 568px;
     width: 100%;
-     filter: blur(10px);
+   /* filter: blur(5px);*/
+
+    background: 
+    linear-gradient(
+      rgba(2, 1, 4, 0.65),
+      rgba(2, 1, 4, 0.65)
+    ),
+    url("../images/keyboard800x1267.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
 /* NAME, TITLE, FULL STACK ICONS */
@@ -30,7 +40,7 @@
     1px -1px 0 black,
     -1px 1px 0 black,
     1px 1px 0 black;
-   
+
 }
 
 #fullstackicons {
