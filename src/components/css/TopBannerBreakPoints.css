@@ -15,6 +15,8 @@
     /*height matches width of Galaxy S5*/
     height: 360px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: 150%;
     
 }
 
@@ -151,7 +153,9 @@
     vertical-align: bottom;
     /*height matches width of Galaxy S5*/
     height: 500px;
-    width: 100%;
+    width: 100%;  
+    background-repeat: no-repeat;
+    background-size: 100%;
     
 }
 
@@ -292,6 +296,8 @@
     /*height matches width of Galaxy S5*/
     height: 850px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
     
 }
 

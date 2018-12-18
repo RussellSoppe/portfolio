@@ -19,10 +19,10 @@ iframe {
 
 .outercard{
 	/*background-color: blue;*/
-	height: 420px;
+	height: 550px;
 	width: auto;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 25px;
 	display: flex;
 	justify-content: center;
 }
@@ -31,6 +31,17 @@ iframe {
 	/*background-color: pink;*/
 	height: 400px;
 	width: auto;
+	/*width: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;*/
+}
+
+.innercardalt {
+/*	background-color: pink;*/
+	height: auto;
+	width: 400px;
 	/*width: auto;
 	display: flex;
 	align-items: center;
@@ -57,11 +68,22 @@ iframe {
 	width: 300px;
 }
 
+.cardtextm{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	color: white;
+	/*background-color: blue;*/
+	width: auto;
+}
+
 .cardtext{
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-bottom: 20px;
 	color: white;
+/*	background-color: blue;*/
+	width: 450px;
 }
 
 .btn {
@@ -108,14 +130,67 @@ iframe {
     color:#1AAB8A; 
 }
 
+.connectinginconsm{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+
+.connectingincons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+.connectingiconm{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 3em;
+    color:#1AAB8A; 
+}
 
 .connectingicon{
     padding-right: 10px;
-    font-size: 3em;
+    padding-left: 10px;
+    font-size: 2em;
     color:#1AAB8A; 
-/*    text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;*/
+}
+
+
+.connectingicontextm{
+  
+    font-size: 1em;
+    color:#1AAB8A; 
+    /*color:orange;*/
+
+    text-shadow:
+    -1px -1px 1px black,
+    1px -1px 1px black,
+    -1px 1px 1px black,
+    1px 1px 1px black;
+ 	text-decoration: none;
+ 	display:flex;
+ 	align-items: center;
+ 	justify-content: center;
+
+}
+
+
+.connectingicontext{
+   
+    font-size: 1.5em;
+    color:#1AAB8A; 
+    /*color:orange;*/
+
+    text-shadow:
+    -1px -1px 1px black,
+    1px -1px 1px black,
+    -1px 1px 1px black,
+    1px 1px 1px black;
+    text-decoration: none;
+
+
 }
