@@ -23,8 +23,8 @@ const WebsitesComp = (props) => {
 				            		<p>{webarray[i].description}</p>
 					              <p>{webarray[i].techdescription}</p>
 					              <div class="connectingincons">
-					              <a className="connectingicontext" href={webarray[i].github}><FaGithub className="connectingicon"/>GitHub Repo</a>
-					             	<a className="connectingicontext" href={webarray[i].webaddress}><FaDesktop className="connectingicon"/>Website</a>
+						              <a className="connectingicontext" href={webarray[i].github}><FaGithub className="connectingicon"/>GitHub Repo</a>
+						             	<a className="connectingicontext" href={webarray[i].webaddress}><FaDesktop className="connectingicon"/>Website</a>
 					             	</div>
 				            	</div> 
 			            	</div>
@@ -39,8 +39,8 @@ const WebsitesComp = (props) => {
 				            		<p>{webarray[i].description}</p>
 					              <p>{webarray[i].techdescription}</p>
 					              <div class="connectingincons">
-					              <a className="connectingicontext" href={webarray[i].github}><FaGithub className="connectingicon"/>GitHub Repo</a>
-					             	<a className="connectingicontext" href={webarray[i].webaddress}><FaDesktop className="connectingicon"/>Website</a>
+						              <a className="connectingicontext" href={webarray[i].github}><FaGithub className="connectingicon"/>GitHub Repo</a>
+						             	<a className="connectingicontext" href={webarray[i].webaddress}><FaDesktop className="connectingicon"/>Website</a>
 					             	</div>
 				            	</div>
 				            	<div data-aos={webarray[i].dataaos1}>
