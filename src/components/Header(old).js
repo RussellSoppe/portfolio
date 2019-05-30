@@ -4,6 +4,8 @@ import './css/TopBannerBreakPoints.css';
 import keyboard from './images/keyboard500x792.jpg';
 import { FaJs } from 'react-icons/fa';
 import { FaNodeJs } from 'react-icons/fa';
+import { FaWordpress } from 'react-icons/fa';
+import { FaPhp } from 'react-icons/fa';
 import { FaReact } from 'react-icons/fa';
 import { FaHtml5 } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
@@ -32,12 +34,14 @@ const TopBanner = (props)=>{
           Russell Soppe
         </div>
         <div>
-          Full Stack Web Developer
+          Web Developer
         </div>
         <div id="fullstackicons">
           <FaHtml5 />
           <FaCss3Alt />
           <FaJs />
+          <FaPhp />
+          <FaWordpress />
           <FaReact />
           <FaNodeJs />  
           <FaDatabase />

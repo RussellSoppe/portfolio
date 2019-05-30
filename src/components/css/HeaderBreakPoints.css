@@ -13,7 +13,7 @@
 #keyboardimg{
     vertical-align: bottom;
     /*height matches width of Galaxy S5*/
-    height: 360px;
+    height: 500px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 150%;
@@ -23,7 +23,7 @@
 /* NAME, TITLE, FULL STACK ICONS */
 #nametitlediv {
     position: absolute;
-    top: 16%;
+    top: 14%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.5em;
@@ -45,7 +45,7 @@
 /*ABOUT DIV STARTS HERE*/
 #aboutmemasterdiv {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .5em;
@@ -98,7 +98,7 @@
 /*Icon Column Ends*/
 #contactmasterdiv{
     position: absolute;
-    top: 90%;
+    top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .5em;
@@ -294,7 +294,7 @@
 #keyboardimg{
     vertical-align: bottom;
     /*height matches width of Galaxy S5*/
-    height: 850px;
+    height: 750px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -304,13 +304,21 @@
 /* NAME, TITLE, FULL STACK ICONS */
 #nametitlediv {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5em;
     font-weight: bold;
     color:#1AAB8A;
     width: 1000px;
+}
+
+#nametext{
+    font-size: 1em;
+}
+
+#devtext{
+    font-size: .7em;
 }
 
 #fullstackicons {
@@ -326,7 +334,7 @@
 /*ABOUT DIV STARTS HERE*/
 #aboutmemasterdiv {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .5em;
@@ -379,7 +387,7 @@
 /*Icon Column Ends*/
 #contactmasterdiv{
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .5em;

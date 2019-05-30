@@ -1,3 +1,26 @@
+/*Project Examples*/
+#mobilefirst{
+	display: block;
+}
+
+#desktopview{
+	display:none;
+}
+
+@media screen and (min-width: 1200px){
+
+	#mobilefirst{
+		display: none;
+	}
+
+	#desktopview{
+		display:block;
+	}
+
+}
+
+
+
 /*Websites Global*/
 iframe {
 	height:400px;

@@ -14,6 +14,7 @@ const WebsitesMF = (props) => {
 	
 	
 		return(
+			<div id="mobilefirst">
 			<div  className="websites">
 				{webarray.map((info, i)=>{
 					return(
@@ -37,6 +38,7 @@ const WebsitesMF = (props) => {
 	          </div>
 					);
 				})}
+	     </div>
 	     </div>
 	   );
 
