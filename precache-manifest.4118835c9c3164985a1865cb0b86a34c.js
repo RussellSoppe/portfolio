@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/huddle.b227d3b1.png"
   },
   {
-    "revision": "ba9e0c56ffff5eccddd7",
-    "url": "/portfolio/static/css/main.c76fd27b.chunk.css"
+    "revision": "c801fe47c1e3f7b70f1a",
+    "url": "/portfolio/static/css/main.a1b02024.chunk.css"
   },
   {
     "revision": "87727d5e4b6e36480d453f4956a55677",
     "url": "/portfolio/static/media/abstract-art-artistic-1020315.87727d5e.jpg"
   },
   {
-    "revision": "8c70deb5723a9c875f5e",
-    "url": "/portfolio/static/js/1.8c70deb5.chunk.js"
+    "revision": "ec7472bfc3c605add22b",
+    "url": "/portfolio/static/js/1.ec7472bf.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/robofriends.568231e7.png"
   },
   {
-    "revision": "ba9e0c56ffff5eccddd7",
-    "url": "/portfolio/static/js/main.ba9e0c56.chunk.js"
+    "revision": "c801fe47c1e3f7b70f1a",
+    "url": "/portfolio/static/js/main.c801fe47.chunk.js"
   },
   {
     "revision": "b4b8152f6d57a9c26970ca63db8f8989",
@@ -68,11 +68,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/bartosz-kwitkowski-509565-unsplash.180e8e98.jpg"
   },
   {
-    "revision": "8c70deb5723a9c875f5e",
-    "url": "/portfolio/static/css/1.4ee76612.chunk.css"
+    "revision": "ec7472bfc3c605add22b",
+    "url": "/portfolio/static/css/1.e96e731c.chunk.css"
   },
   {
-    "revision": "5c16b2a354c69f7ee36f8d5285f9b607",
+    "revision": "b32e06eb524a93c28ebc22ed7745f80d",
     "url": "/portfolio/index.html"
   }
 ];
