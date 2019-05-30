@@ -8,8 +8,21 @@ import calculator from './images/calculator.png';
 import robofriends from './images/robofriends.png';
 import huddle from './images/huddle.png';
 import mealplanning from './images/mealplanning.png';
+import foundry from './images/lost&foundry.PNG';
 
 export const webarray = [
+{
+title:'Lost & Foundry',
+imgsource:foundry,
+imgalt:'Lost & Foundry',
+description: 'A foundry supply and education business by Steve Hoerner.',
+techdescription:'Developed as a custom theme with WordPress.',
+github:'https://github.com/RussellSoppe/lostandfoundry-wp',
+webaddress:'http://foundry101.com',
+side1: false,
+dataaos1:'fade-left',
+dataaos2:'fade-right'
+},
 {
 title:'Meal Planning Made Easy',
 imgsource:mealplanning,
