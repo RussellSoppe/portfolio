@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b227d3b1d98b274c466bd46b4b292dd2",
-    "url": "/portfolio/static/media/huddle.b227d3b1.png"
+    "revision": "b4b8152f6d57a9c26970ca63db8f8989",
+    "url": "/portfolio/static/media/mealplanning.b4b8152f.png"
   },
   {
-    "revision": "c801fe47c1e3f7b70f1a",
-    "url": "/portfolio/static/css/main.a1b02024.chunk.css"
+    "revision": "90fb96c6c29c28f730a3",
+    "url": "/portfolio/static/css/main.3d1014b5.chunk.css"
   },
   {
     "revision": "87727d5e4b6e36480d453f4956a55677",
     "url": "/portfolio/static/media/abstract-art-artistic-1020315.87727d5e.jpg"
   },
   {
-    "revision": "ec7472bfc3c605add22b",
-    "url": "/portfolio/static/js/1.ec7472bf.chunk.js"
+    "revision": "108d12e6ef70531a5ccb",
+    "url": "/portfolio/static/js/1.108d12e6.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -36,12 +36,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/robofriends.568231e7.png"
   },
   {
-    "revision": "c801fe47c1e3f7b70f1a",
-    "url": "/portfolio/static/js/main.c801fe47.chunk.js"
+    "revision": "b227d3b1d98b274c466bd46b4b292dd2",
+    "url": "/portfolio/static/media/huddle.b227d3b1.png"
   },
   {
-    "revision": "b4b8152f6d57a9c26970ca63db8f8989",
-    "url": "/portfolio/static/media/mealplanning.b4b8152f.png"
+    "revision": "90fb96c6c29c28f730a3",
+    "url": "/portfolio/static/js/main.90fb96c6.chunk.js"
+  },
+  {
+    "revision": "d735a4fc9a6c736f7a9743d9511ebb11",
+    "url": "/portfolio/static/media/lost&foundry.d735a4fc.PNG"
   },
   {
     "revision": "b40b0c78438701c892beb3d6b0820907",
@@ -68,11 +72,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/bartosz-kwitkowski-509565-unsplash.180e8e98.jpg"
   },
   {
-    "revision": "ec7472bfc3c605add22b",
-    "url": "/portfolio/static/css/1.e96e731c.chunk.css"
+    "revision": "108d12e6ef70531a5ccb",
+    "url": "/portfolio/static/css/1.5b489df1.chunk.css"
   },
   {
-    "revision": "b32e06eb524a93c28ebc22ed7745f80d",
+    "revision": "e6680b324e4738a112621d1f8b3b9908",
     "url": "/portfolio/index.html"
   }
 ];
