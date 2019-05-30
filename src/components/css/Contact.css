@@ -1,0 +1,25 @@
+section{
+	margin: 25px 25px 25px 25px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.marketingqs{
+	padding: 5px;
+	font-size: 1em;
+}
+
+.contact-now-div{
+	padding: 10px;
+}
+
+.contact-a{
+	color: black;
+	text-decoration: none;
+}
+
+.contact-now-text{
+	padding: 5px;
+	width: 100%;
+	background-color: #1AAB8A;
+}

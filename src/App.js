@@ -4,8 +4,9 @@ import './App.css';
 // import Websites from './components/Websites';
 import WebsitesComp from './components/WebsitesComp';
 import WebsitesMF from './components/WebsitesMF';
+import Header from './components/Header';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
-import TopBanner from './components/TopBanner';
 import BackgroundImg from './components/BackgroundImg';
 import WebsiteDisplayOptions from './components/WebsiteDisplayOptions';
 import AOS from 'aos';
@@ -41,14 +42,10 @@ class App extends Component {
     return (
       <div className="App">
         <BackgroundImg/>
-        <TopBanner/>
-        <WebsiteDisplayOptions onOptionChange={this.onOptionChange}/>
-        {this.state.websiteoptions==="mobilefirst" 
-         ?<WebsitesMF
-         
-         />
-         :<WebsitesComp/>
-        }
+        <Header />
+        <Contact />
+        <WebsitesMF />
+        <WebsitesComp />
         <Footer />
       </div>
     );
@@ -57,5 +54,11 @@ class App extends Component {
 
 export default App;
 
-
+//<WebsiteDisplayOptions onOptionChange={this.onOptionChange}/>
+        {/*this.state.websiteoptions==="mobilefirst" 
+         ?<WebsitesMF className="mobilefirst"
+         
+         />
+         :<WebsitesComp className=""/>
+        */}
        

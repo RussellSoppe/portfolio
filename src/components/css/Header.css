@@ -28,7 +28,7 @@
 /* NAME, TITLE, FULL STACK ICONS */
 #nametitlediv {
     position: absolute;
-    top: 20%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.5em;
@@ -41,6 +41,14 @@
     -1px 1px 0 black,
     1px 1px 0 black;
 
+}
+
+#nametext{
+    font-size: 1.6em;
+}
+
+#devtext{
+   /* color: orange;*/
 }
 
 #fullstackicons {
@@ -56,7 +64,7 @@
 /*ABOUT DIV STARTS HERE*/
 #aboutmemasterdiv {
     position: absolute;
-    top: 60%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .5em;
@@ -106,6 +114,18 @@
     color: orange;
     font-size: 2.5em;
 }
+
+#alsodiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2em;
+}
+
+#alsotext{
+}
+
+
 /*Icon Column Ends*/
 
 #contactmasterdiv{
